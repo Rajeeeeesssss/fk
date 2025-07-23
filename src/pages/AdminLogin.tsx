@@ -164,7 +164,6 @@ const AdminLogin = () => {
             OTP link sent! Check admin email to complete login.
           </div>
         )}
-        <div className="absolute top-2 right-2 text-[10px] text-primary/30">Admin Only</div>
       </form>
     </div>
   );
