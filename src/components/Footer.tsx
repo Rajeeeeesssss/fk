@@ -11,7 +11,7 @@ const Footer = () => {
             rel="noreferrer"
             className="font-medium underline underline-offset-4"
           >
-            Lovable
+            RA2S
           </a>
           . All rights reserved. © {new Date().getFullYear()} Flick Hub.
         </p>
