@@ -11,6 +11,8 @@ import { useToast } from "@/hooks/use-toast";
 import { ShieldAlert } from "lucide-react";
 
 const ADMIN_EMAIL = "rajesh9933123@gmail.com";
+const maskedEmail = "ra*********************@gmail.com";
+
 
 type AuthView = "admin-otp";
 
@@ -144,13 +146,14 @@ const AdminLogin = () => {
         <div className="border-y border-primary/10 py-3 flex flex-col gap-5">
           <div>
             <Label htmlFor="admin-email" className="font-semibold text-primary">Admin Email</Label>
-            <Input
-              id="admin-email"
-              type="email"
-              value={email}
-              disabled
-              className="mt-1 bg-gray-100 font-mono text-gray-700"
-            />
+          <Input
+               id="admin-email"
+               type="text"
+               value={maskedEmail}
+               disabled
+               className="mt-1 bg-gray-100 font-mono text-gray-700"
+               />
+
           </div>
         </div>
         {error && <div className="bg-red-100 text-red-700 text-sm rounded px-3 py-2">{error}</div>}
