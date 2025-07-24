@@ -147,7 +147,7 @@ const AdminLogin = () => {
             <Input
               id="admin-email"
               type="email"
-              value={email}
+              value={ra************3@gmail.com}
               disabled
               className="mt-1 bg-gray-100 font-mono text-gray-700"
             />
